@@ -1,6 +1,6 @@
 {
-  "name": "client",
-  "version": "0.1.0",
+  "name": "friendsapp",
+  "version": "0.4.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -10,6 +10,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-emoji": "^0.5.0",
+    "react-emojipicker": "^1.1.1",
+    "react-loader-spinner": "^3.1.14",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",

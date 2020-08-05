@@ -8,7 +8,7 @@ const Join = () => {
     return (
       <div className="joinOuterContainer">
         <div className="joinInnerContainer">
-          <h1 className="heading">Join this Chat App</h1>
+          <h1 className="heading">FriendsApp</h1>
           <div>
             <input
               placeholder="Name"
@@ -29,8 +29,12 @@ const Join = () => {
             onClick={(e) => (!name || !room ? e.preventDefault() : null)}
             to={`/chat?name=${name}&room=${room}`}
           >
-            <button className={"button mt-20"} type="submit">
-              Sign In
+            <button
+              className={"button mt-20"}
+              type="submit"
+              onClick={() => console.log("hi")}
+            >
+              Join
             </button>
           </Link>
         </div>
